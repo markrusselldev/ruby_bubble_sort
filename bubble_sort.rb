@@ -3,7 +3,7 @@ def bubble_sort(numbers)
 
   numbers.each_with_index do |number, idx|
     numbers.each_with_index do |next_number, next_idx|
-      numbers[idx], numbers[next_idx] = numbers[next_idx], numbers[idx] unless number >  next_number
+      numbers[idx], numbers[next_idx] = numbers[next_idx], numbers[idx] unless number > next_number
     end
   end
 end
